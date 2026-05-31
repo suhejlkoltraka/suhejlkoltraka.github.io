@@ -287,3 +287,14 @@ justify-content:space-between;
 padding:15px 0;
 border-bottom:1px solid rgba(255,255,255,.08);
 }
+footer{
+padding:60px 0;
+text-align:center;
+border-top:1px solid rgba(255,255,255,.08);
+margin-top:100px;
+}
+
+footer p{
+opacity:.7;
+margin-top:10px;
+}
