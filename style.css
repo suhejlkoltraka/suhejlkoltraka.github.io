@@ -196,3 +196,44 @@ footer{
     transform:translateY(-5px);
     border:1px solid rgba(0,191,255,.4);
 }
+.contact-section{
+    padding:100px 0;
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:20px 0;
+}
+
+.contact-item i{
+    color:var(--accent);
+    font-size:1.3rem;
+}
+
+.custom-input{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.15);
+    color:white;
+    padding:12px;
+}
+
+.custom-input:focus{
+    background:rgba(255,255,255,.08);
+    color:white;
+    border-color:var(--accent);
+    box-shadow:none;
+}
+
+.custom-input::placeholder{
+    color:#cfcfcf;
+}
+
+.business-hours{
+    padding:60px 0;
+}
+
+.map-section{
+    padding:60px 0 100px;
+}
