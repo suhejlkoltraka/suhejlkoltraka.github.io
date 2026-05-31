@@ -249,3 +249,32 @@ display:none;
 }
 
 }
+.network-monitor{
+margin-top:30px;
+padding:25px;
+background:rgba(255,255,255,.04);
+border-radius:20px;
+}
+
+.server-status{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:20px;
+font-weight:600;
+}
+
+.status-dot{
+width:10px;
+height:10px;
+background:#22c55e;
+border-radius:50%;
+box-shadow:0 0 10px #22c55e;
+}
+
+.server-row{
+display:flex;
+justify-content:space-between;
+padding:15px 0;
+border-bottom:1px solid rgba(255,255,255,.08);
+}
