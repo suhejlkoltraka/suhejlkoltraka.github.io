@@ -1,0 +1,35 @@
+:root{
+    --primary:#0d1b2a;
+    --secondary:#1b263b;
+    --accent:#00b4d8;
+}
+
+body{
+    font-family:Segoe UI,sans-serif;
+    line-height:1.6;
+}
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(
+        rgba(13,27,42,.8),
+        rgba(13,27,42,.8)
+    );
+    color:white;
+}
+
+.card{
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.btn-custom{
+    background:var(--accent);
+    color:white;
+}
