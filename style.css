@@ -210,6 +210,7 @@ cursor:pointer;
 .tech-stack span:hover{
 background:#4f7cff;
 transform:translateY(-3px);
+transition:.3s;
 }
 
 .contact-box{
