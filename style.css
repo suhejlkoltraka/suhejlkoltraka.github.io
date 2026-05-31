@@ -181,7 +181,9 @@ transition:.3s;
 }
 
 .glass-card:hover{
-transform:translateY(-8px);
+transform:translateY(-10px);
+border:1px solid #4f7cff;
+box-shadow:0 0 30px rgba(79,124,255,.3);
 }
 
 .glass-card i{
@@ -200,6 +202,13 @@ gap:15px;
 padding:14px 24px;
 background:rgba(255,255,255,.05);
 border-radius:999px;
+border:1px solid rgba(255,255,255,.08);
+transition:.3s;
+}
+
+.tech-stack span:hover{
+background:#4f7cff;
+transform:translateY(-3px);
 }
 
 .contact-box{
