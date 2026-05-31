@@ -4,141 +4,281 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>5G Albania - IT & Network Solutions</title>
+<title>5G.AL | IT & Network Solutions</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 
-<style>
-.hero{
-    min-height:100vh;
-    background:#0d1b2a;
-    color:white;
-    display:flex;
-    align-items:center;
-}
-
-.service-card{
-    transition:.3s;
-}
-
-.service-card:hover{
-    transform:translateY(-5px);
-}
-
-footer{
-    background:#0d1b2a;
-    color:white;
-    padding:30px;
-}
-</style>
-
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
 <div class="container">
-<a class="navbar-brand" href="#">5G Albania</a>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<a class="navbar-brand fw-bold" href="#">
+    <span class="logo-text">5G.AL</span>
+</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
 <span class="navbar-toggler-icon"></span>
 </button>
 
-<div class="collapse navbar-collapse" id="menu">
+<div class="collapse navbar-collapse" id="navbar">
+
 <ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="services.html">Services</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="projects.html">Projects</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
 </ul>
+
 </div>
 </div>
 </nav>
 
 <section class="hero">
-<div class="container text-center">
 
-<h1 class="display-3 fw-bold">
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<div class="badge-custom">
+Enterprise Networking • Security • Cloud
+</div>
+
+<h1 class="hero-title">
 Advanced IT & Network Solutions
 </h1>
 
-<p class="lead">
-Empowering businesses with networking, cloud infrastructure, security, and digital transformation.
+<p class="hero-text">
+Delivering enterprise networking, cybersecurity,
+cloud infrastructure, CCTV systems and managed IT
+services across Albania.
 </p>
 
-<a href="#services" class="btn btn-primary btn-lg">
-Explore Services
+<div class="mt-4">
+
+<a href="services.html" class="btn btn-primary btn-lg me-3">
+Our Services
+</a>
+
+<a href="contact.html" class="btn btn-outline-light btn-lg">
+Contact Us
 </a>
 
 </div>
+
+</div>
+
+<div class="col-lg-6 text-center">
+
+<div class="dashboard-card">
+
+<div class="dashboard-header">
+Network Operations Center
+</div>
+
+<div class="dashboard-content">
+
+<div class="row">
+
+<div class="col-4">
+<h3>99.9%</h3>
+<p>Uptime</p>
+</div>
+
+<div class="col-4">
+<h3>100+</h3>
+<p>Projects</p>
+</div>
+
+<div class="col-4">
+<h3>24/7</h3>
+<p>Support</p>
+</div>
+
+</div>
+
+<div class="graph"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="services" class="py-5">
+<section class="stats-section">
+
 <div class="container">
 
-<h2 class="text-center mb-5">Our Services</h2>
+<div class="row text-center">
 
-<div class="row g-4">
+<div class="col-md-3">
+<h2 class="counter">100+</h2>
+<p>Projects Completed</p>
+</div>
 
-<div class="col-md-4">
-<div class="card service-card h-100">
-<div class="card-body">
+<div class="col-md-3">
+<h2 class="counter">99.9%</h2>
+<p>Availability</p>
+</div>
+
+<div class="col-md-3">
+<h2 class="counter">24/7</h2>
+<p>Support</p>
+</div>
+
+<div class="col-md-3">
+<h2 class="counter">10+</h2>
+<p>Years Experience</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="services-preview">
+
+<div class="container">
+
+<h2 class="section-title text-center">
+Our Core Services
+</h2>
+
+<div class="row mt-5">
+
+<div class="col-md-4 mb-4">
+
+<div class="service-card">
+
+<i class="fas fa-network-wired"></i>
+
 <h4>Network Infrastructure</h4>
-<p>Enterprise-grade wired and wireless networking solutions.</p>
-</div>
-</div>
-</div>
-
-<div class="col-md-4">
-<div class="card service-card h-100">
-<div class="card-body">
-<h4>Cybersecurity</h4>
-<p>Protecting your systems from modern threats.</p>
-</div>
-</div>
-</div>
-
-<div class="col-md-4">
-<div class="card service-card h-100">
-<div class="card-body">
-<h4>Cloud Solutions</h4>
-<p>Scalable and secure cloud deployments.</p>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</section>
-
-<section id="about" class="bg-light py-5">
-<div class="container">
-
-<h2>About Us</h2>
 
 <p>
-5G Albania provides innovative IT and networking solutions designed to help businesses grow securely and efficiently.
+LAN/WAN design, routing, switching and
+enterprise connectivity solutions.
 </p>
 
 </div>
-</section>
-
-<section id="contact" class="py-5">
-<div class="container">
-
-<h2>Contact</h2>
-
-<p>Email: info@yourcompany.com</p>
-
-<p>Phone: +355 XX XXX XXXX</p>
 
 </div>
+
+<div class="col-md-4 mb-4">
+
+<div class="service-card">
+
+<i class="fas fa-shield-halved"></i>
+
+<h4>Cybersecurity</h4>
+
+<p>
+Firewalls, VPN solutions and
+security assessments.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4 mb-4">
+
+<div class="service-card">
+
+<i class="fas fa-cloud"></i>
+
+<h4>Cloud Services</h4>
+
+<p>
+Migration, virtualization and
+managed cloud infrastructure.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<footer class="text-center">
-<p>© 2026 5G Albania. All rights reserved.</p>
+<section class="technologies">
+
+<div class="container">
+
+<h2 class="section-title text-center">
+Technologies We Work With
+</h2>
+
+<div class="tech-grid">
+
+<div>Cisco</div>
+<div>MikroTik</div>
+<div>Ubiquiti</div>
+<div>Fortinet</div>
+<div>VMware</div>
+<div>Microsoft 365</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container text-center">
+
+<h4>5G.AL</h4>
+
+<p>
+Building Secure Networks. Enabling Digital Transformation.
+</p>
+
+<p>
+📞 +355 67 202 0183
+<br>
+✉️ 5g@info.al
+</p>
+
+</div>
+
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
