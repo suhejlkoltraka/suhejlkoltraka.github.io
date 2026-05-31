@@ -298,3 +298,18 @@ footer p{
 opacity:.7;
 margin-top:10px;
 }
+.glass-card{
+animation:fadeUp .8s ease forwards;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
