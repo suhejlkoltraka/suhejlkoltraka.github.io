@@ -9,4 +9,4 @@ Technologies:
 - GitHub Pages
 
 Live Website:
-https://suhejlkoltraka.github.io
+https://projects.5g.al
